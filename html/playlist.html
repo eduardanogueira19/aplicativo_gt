@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GT Praia Grande</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="../logo-gt.jpg" alt="Logo GT Praia Grande" class="logo" />
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+    <nav id="menu" class="hidden">
+      <ul>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="links.html">Links Úteis</a></li>
+        <li><a href="playlist.html">Playlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="playlist">
+      <h2>Playlist</h2>
+      <p>Confira a playlist com as músicas do grupo.</p>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/SEU_LINK" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+    </section>
+  </main>
+
+  <script src="../script.js"></script>
+</body>
+</html>
